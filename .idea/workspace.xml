@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc2d564-0c87-414d-9679-338d21c2b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScanNSplit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScanNSplit/pages/ExampleCamera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScanNSplit/pages/HomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScanNSplit/pages/SplitMainScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xjEZvJBdS4bbdkqDbfOU3FOUHl" />
@@ -21,8 +44,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScanNSplit/pages" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,8 +68,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630860156155</updated>
-      <workItem from="1630860157381" duration="1204000" />
+      <workItem from="1630860157381" duration="2504000" />
+      <workItem from="1630862871958" duration="863000" />
+      <workItem from="1630863862239" duration="8348000" />
+      <workItem from="1631213135273" duration="5525000" />
     </task>
+    <task id="LOCAL-00001" summary="First test commit">
+      <created>1630861542172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630861542172</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First test commit">
+      <created>1630861644907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630861644907</updated>
+    </task>
+    <task id="LOCAL-00003" summary="development:&#10;-Update README">
+      <created>1630863746940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630863746940</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -49,5 +110,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First test commit" />
+    <MESSAGE value="development:&#10;-Update README" />
+    <MESSAGE value="-Created three new pages (Home page, MainSplitting page, Camera page)&#10;-Created navigation between each page&#10;-Updated README&#10;-Camera can take pictures now. Currently it is saving the image locally as a JPG.&#10;-Setup the functionality to run ScanNSplit on my physical device.&#10;-Install built-in Text Recognition from Firebase&#10;&#10;TODO:&#10;- Change image to PNG&#10;- Decide to either send images to my Azure storage explorer OR use the built-in Text Recognition&#10;- Work on Main splitting page UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Created three new pages (Home page, MainSplitting page, Camera page)&#10;-Created navigation between each page&#10;-Updated README&#10;-Camera can take pictures now. Currently it is saving the image locally as a JPG.&#10;-Setup the functionality to run ScanNSplit on my physical device.&#10;-Install built-in Text Recognition from Firebase&#10;&#10;TODO:&#10;- Change image to PNG&#10;- Decide to either send images to my Azure storage explorer OR use the built-in Text Recognition&#10;- Work on Main splitting page UI" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

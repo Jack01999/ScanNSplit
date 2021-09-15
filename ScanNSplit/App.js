@@ -6,9 +6,13 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import * as React from 'react';
 import type {Node} from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
+  Button,
+  TextInput,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -17,7 +21,6 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-
 import {
   Colors,
   DebugInstructions,
@@ -25,6 +28,9 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import SplitMainScreen from "./pages/SplitMainScreen";
+import HomeScreen from "./pages/HomeScreen";
+import ExampleCamera from "./pages/ExampleCamera";
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -52,41 +58,22 @@ const Section = ({children, title}): Node => {
   );
 };
 
-const App: () => Node = () => {
-  const isDarkMode = useColorScheme() === 'dark';
+const Stack = createNativeStackNavigator();
 
+const App = () => {
+  const isDarkMode = useColorScheme() === 'dark';
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Home" component={HomeScreen}/>
+          <Stack.Screen name="Main" component={SplitMainScreen}/>
+          <Stack.Screen name="Camera" component={ExampleCamera}/>
+        </Stack.Navigator>
+      </NavigationContainer>
   );
 };
 
