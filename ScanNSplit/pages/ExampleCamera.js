@@ -13,9 +13,6 @@ class ExampleCamera extends PureComponent {
                     }}
                     style={styles.preview}
                     type={RNCamera.Constants.Type.back}
-                    onTextRecognized={({ info }) => {
-                        console.log("text recognition text: " + info);
-                    }}
                 />
                 <View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center' }}>
                     <TouchableOpacity onPress={this.takePicture.bind(this)} style={styles.capture}>
@@ -28,7 +25,7 @@ class ExampleCamera extends PureComponent {
 
     takePicture = async () => {
         if (this.camera) {
-            const options = { quality: 0.5, base64: true };
+            const options = { quality: 0.5, base64: true};
             const data = await this.camera.takePictureAsync(options);
             console.log("DATA.URI: " + data.uri);
             //console.log("base64: " + data.base64);
