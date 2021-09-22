@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc2d564-0c87-414d-9679-338d21c2b5e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ScanNSplit/pages/ExampleCamera.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScanNSplit/pages/HomeScreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScanNSplit/pages/SplitMainScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanNSplit/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanNSplit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/ios/ScanNSplit/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScanNSplit/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScanNSplit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/pages/ExampleCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/pages/ExampleCamera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanNSplit/pages/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/ScanNSplit/pages/HomeScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,9 @@
       <workItem from="1630860157381" duration="2504000" />
       <workItem from="1630862871958" duration="863000" />
       <workItem from="1630863862239" duration="8348000" />
-      <workItem from="1631213135273" duration="5525000" />
+      <workItem from="1631213135273" duration="6002000" />
+      <workItem from="1631760698947" duration="2730000" />
+      <workItem from="1632276598451" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="First test commit">
       <created>1630861542172</created>
@@ -94,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630863746940</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Created three new pages (Home page, MainSplitting page, Camera page)&#10;-Created navigation between each page&#10;-Updated README&#10;-Camera can take pictures now. Currently it is saving the image locally as a JPG.&#10;-Setup the functionality to run ScanNSplit on my physical device.&#10;-Install built-in Text Recognition from Firebase&#10;&#10;TODO:&#10;- Change image to PNG&#10;- Decide to either send images to my Azure storage explorer OR use the built-in Text Recognition&#10;- Work on Main splitting page UI">
+      <created>1631681501670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631681501671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +120,8 @@
     <MESSAGE value="First test commit" />
     <MESSAGE value="development:&#10;-Update README" />
     <MESSAGE value="-Created three new pages (Home page, MainSplitting page, Camera page)&#10;-Created navigation between each page&#10;-Updated README&#10;-Camera can take pictures now. Currently it is saving the image locally as a JPG.&#10;-Setup the functionality to run ScanNSplit on my physical device.&#10;-Install built-in Text Recognition from Firebase&#10;&#10;TODO:&#10;- Change image to PNG&#10;- Decide to either send images to my Azure storage explorer OR use the built-in Text Recognition&#10;- Work on Main splitting page UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Created three new pages (Home page, MainSplitting page, Camera page)&#10;-Created navigation between each page&#10;-Updated README&#10;-Camera can take pictures now. Currently it is saving the image locally as a JPG.&#10;-Setup the functionality to run ScanNSplit on my physical device.&#10;-Install built-in Text Recognition from Firebase&#10;&#10;TODO:&#10;- Change image to PNG&#10;- Decide to either send images to my Azure storage explorer OR use the built-in Text Recognition&#10;- Work on Main splitting page UI" />
+    <MESSAGE value="-Remove React-Native's built in Text-Recognition. Doesn't seem to be working properly. Try another approach: Send the image to azure, or any other cloud platform (Firebase, AWS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Remove React-Native's built in Text-Recognition. Doesn't seem to be working properly. Try another approach: Send the image to azure, or any other cloud platform (Firebase, AWS)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

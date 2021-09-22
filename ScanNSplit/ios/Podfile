@@ -6,9 +6,6 @@ platform :ios, '11.0'
 target 'ScanNSplit' do
   config = use_native_modules!
 
-  pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
-    'TextDetector'
-  ]
 
   use_react_native!(
     :path => config[:reactNativePath],

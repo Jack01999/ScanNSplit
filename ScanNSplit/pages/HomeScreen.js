@@ -21,7 +21,7 @@ const HomeScreen = ({ navigation })  => {
                 alignItems: "center"
             }}>
             <Text style={{ fontSize: 50, color: 'green' }}>ScanNSplit</Text>
-            <Text>Hello, world x {count}!</Text>
+            <Text>Hello, Bella x {count}!</Text>
             <Button title="Go to Split Main Screen" onPress={() => navigation.navigate('Main')}></Button>
             <Button title="Camera" onPress={() => navigation.navigate('Camera')}></Button>
         </View>
