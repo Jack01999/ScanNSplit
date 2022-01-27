@@ -10,6 +10,7 @@ import {
     useColorScheme,
     View,
 } from 'react-native';
+import { NativeBaseProvider, Box } from 'native-base';
 
 const HomeScreen = ({ navigation })  => {
     const [count, setCount] = useState(0);
@@ -22,8 +23,10 @@ const HomeScreen = ({ navigation })  => {
             }}>
             <Text style={{ fontSize: 50, color: 'green' }}>ScanNSplit</Text>
             <Text>Hello, Bella x {count}!</Text>
+            <NativeBaseProvider>
+                <Box>Hello world</Box>
+            </NativeBaseProvider>
             <Button title="Go to Split Main Screen" onPress={() => navigation.navigate('Main')}></Button>
-            <Button title="Camera" onPress={() => navigation.navigate('Camera')}></Button>
         </View>
     )
 }
