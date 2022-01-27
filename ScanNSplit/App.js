@@ -30,7 +30,6 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import SplitMainScreen from "./pages/SplitMainScreen";
 import HomeScreen from "./pages/HomeScreen";
-import ExampleCamera from "./pages/ExampleCamera";
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -69,9 +68,8 @@ const App = () => {
   return (
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomeScreen}/>
-          <Stack.Screen name="Main" component={SplitMainScreen}/>
-          <Stack.Screen name="Camera" component={ExampleCamera}/>
+            <Stack.Screen name="Home" component={HomeScreen}/>
+            <Stack.Screen name="Main" component={SplitMainScreen}/>
         </Stack.Navigator>
       </NavigationContainer>
   );
