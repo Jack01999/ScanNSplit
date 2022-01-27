@@ -6,6 +6,10 @@
 	<string>This allows the user to select an image from their photo library</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This allows the user to capture an image</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This allows the user to capture a video</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This allows the user to capture a video</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
